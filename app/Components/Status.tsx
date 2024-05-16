@@ -79,23 +79,12 @@ const SideProjects: ProjectsProps[] = [
     url: "http://www.ofourneau.fr/",
   },
   {
-    Logo: MessageCircle,
-    title: "Talk To World",
-    description: "blablablabla",
-    url: "/",
-  },
-  {
     Logo: CircleDashed,
     title: "A venir",
     description: "",
     url: "/",
   },
-  {
-    Logo: CircleDashed,
-    title: "A venir",
-    description: "",
-    url: "/",
-  },
+ 
 ];
 
 type ProjectsProps = {

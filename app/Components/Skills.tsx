@@ -11,9 +11,10 @@ import { Tailwind } from "../icons/Tailwind";
 import { Code } from "./Code";
 import { Card } from "@/components/ui/card";
 import { Php } from "../icons/Php";
-import { Bootstrap } from "../icons/Bootstrat";
+import { Bootstrap } from "../icons/Bootstrap";
 import Aos from 'aos' ;
 import 'aos/dist/aos.css';
+import { Next } from "../icons/Next";
 
 
 export const Skills = () => {

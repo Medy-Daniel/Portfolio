@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { ComponentPropsWithoutRef } from "react";
+"use client";
+import { ComponentPropsWithoutRef, useState } from "react";
 import { Section } from "./Section";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -26,17 +27,21 @@ export const Me = () => {
           <strong>Dévellopeur web et web mobile</strong>
         </h3>
         <p className="text-base mb-4">
-          Voici le lien pour télécharger mon{" "}
+          Voici mon portfolio coder avec la librairie React.
+          <br />
+          Autonome et passionné par le développement web, mes expériences
+          personnelles m'ont permis d'explorer divers langages de programmation
+          et technologies.
+          <br /> 
+          Je suis une personne assidu et rigoureuse dans mon
+          travail et j'espère bientôt pouvoir participer à de nombreux beaux projets au
+          sein d'une entreprise.
+          <br />
+          Si vous le souhaitez, vous pouvez accéder à mon{" "}
           <Link href="https:linkedin.com/in/médy-daniel">
-            <Code className="inline-flex items-center gap-1">
-              Curriculum vitae
-            </Code>
-          </Link>{" "}
-          ainsi que que l'accès à mon{" "}
-          <Link href="https://github.com/Medy-Daniel">
-            <Code className="inline-flex items-center gap-1">
-              <Github size={16} className="inline" />
-              Github
+            <Code className="inline-flex items-center gap-1 mt-2 ">
+              <Linkedin size={16} className="inline " />
+              Linkedin
             </Code>
           </Link>{" "}
           .
