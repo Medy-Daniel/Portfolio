@@ -24,7 +24,7 @@ export const Me = () => {
     <Section className="flex max-md:flex-col items-start">
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h3 className="font-caption text-3xl font-bold text-primary">
-          <strong>Dévellopeur web et web mobile</strong>
+          <strong>Développeur web et web mobile</strong>
         </h3>
         <p className="text-base mb-4">
           Voici mon portfolio coder avec la librairie React.
