@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
-import { ComponentPropsWithoutRef } from "react";
+
+import { ComponentPropsWithoutRef } from "react"; // Import the missing type
 
 
 export const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {

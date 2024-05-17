@@ -1,7 +1,6 @@
 import { Footer } from "./Components/Footer";
 import { Header } from "./Components/Header";
 import { Me } from "./Components/Me";
-import { Pdf } from "./Components/Pdf";
 import { Skills } from "./Components/Skills";
 import { SlideProjects } from "./Components/SlideProjetcts";
 import { Spacing } from "./Components/Spacing";
