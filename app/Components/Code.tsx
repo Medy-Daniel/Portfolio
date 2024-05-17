@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { ComponentPropsWithoutRef } from "react";
 
 
 export const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
