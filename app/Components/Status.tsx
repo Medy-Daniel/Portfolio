@@ -48,7 +48,7 @@ export const Status = () => {
         </Card>
         <Card className="p-4 flex-1 flex flex-col gap-2">
           <p className="text-lg text-muted-foreground mb-1">Contactez moi</p>
-          <Link href="https:linkedin.com/in/médy-daniel">
+          <Link href="https://linkedin.com/in/médy-daniel">
             <ContactCard
               name="Médy Daniel"
               description=""

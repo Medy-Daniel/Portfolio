@@ -22,7 +22,7 @@ import { Linkedin } from "../icons/Linkedin";
                     <Github size={25} className="text-foreground"/>
                </Link>
                <Link
-                href="https:linkedin.com/in/médy-daniel"
+                href="https://linkedin.com/in/médy-daniel"
                  className={cn(buttonVariants({ variant: "outline"}), "size-6 p-0")}
                  >
                     <Linkedin size={25} className="text-foreground"/>
