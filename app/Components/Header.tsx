@@ -9,7 +9,7 @@ import { Linkedin } from "../icons/Linkedin";
  export const Header = () => { 
     return (
     <header className=" top-0 py-4">
-        <Section className= "flex items-baseline">
+        <Section className= "flex items-baseline overflow-x-hidden">
             <h1 className="text-lg font-bold text primary-foreground">
                Medy Daniel 
             </h1>
