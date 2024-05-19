@@ -15,7 +15,7 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Car } from "lucide-react";
 
-import Recipe from '../images/Recipe.jpg';
+import Recipe from '../images/Recipe.png';
 
 export const SlideProjects = () => {
  
@@ -40,7 +40,7 @@ export const SlideProjects = () => {
                    {index === 0 ? (
                     <Link   href="http://www.ofourneau.fr/">
                       <div className='max-w-md: img-container-1'>
-                        <img className="max-w-md: project-img md: " src={Recipe.src}
+                        <img className="max-w-md: project-img  " src={Recipe.src}
                         alt="image_ofourneau"/>
                         </div>
                     </Link>
