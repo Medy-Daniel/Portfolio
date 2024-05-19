@@ -30,7 +30,7 @@ export const SlideProjects = () => {
         Cliquez sur l'image pour accéder au site
         </div>
       </div>
-      <Carousel className="w-full m-auto max-w-lg">
+      <Carousel className="max-w-md: m-auto w-96 md: max-w-lg">
         <CarouselContent>
           {Array.from({ length: 1 }).map((_, index) => (
               <CarouselItem key={index} className=" ">

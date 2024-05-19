@@ -13,7 +13,7 @@ import { url } from "inspector";
 
 export const Status = () => {
   return (
-    <Section className="flex max-md:flex-col items-start gap-4">
+    <Section className="flex max-md:flex-col items-start gap-4 ">
       <div className="flex-[3] w-full">
         <Card className=" w-full flex flex-col gap-2 p-4">
           <p className="text-lg text-muted-foreground">Projets</p>

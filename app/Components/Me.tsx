@@ -21,7 +21,7 @@ const Code = ({ className, ...props }: ComponentPropsWithoutRef<"span">) => {
 
 export const Me = () => {
   return (
-    <Section className="flex max-md:flex-col items-start">
+    <Section className="flex max-md:flex-col items-start ">
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h3 className="font-caption text-3xl font-bold text-primary">
           <strong>Développeur web et web mobile</strong>
@@ -33,7 +33,7 @@ export const Me = () => {
           personnelles m'ont permis d'explorer divers langages de programmation
           et technologies.
           <br /> 
-          Je suis une personne assidu et rigoureuse dans mon
+          Je suis une personne assidue et rigoureuse dans mon
           travail et j'espère bientôt pouvoir participer à de nombreux beaux projets au
           sein d'une entreprise.
           <br />
