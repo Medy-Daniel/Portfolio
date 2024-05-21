@@ -15,6 +15,9 @@ import { Bootstrap } from "../icons/Bootstrap";
 import Aos from 'aos' ;
 import 'aos/dist/aos.css';
 import { Next } from "../icons/Next";
+import { Figma } from "../icons/Figma";
+import { Seo } from "../icons/Seo";
+import { Accessibility } from "../icons/Accessibility";
 
 
 export const Skills = () => {
@@ -80,7 +83,7 @@ export const Skills = () => {
               TailwindCss
             </h3>
             <p className="text-sm m-auto text-muted-foreground">
-              J'apprécie utilisé <Code>TailwindCss</Code> .
+              J'apprécie utiliser <Code>TailwindCss</Code> .
             </p>
           </div>
         </div>
@@ -91,6 +94,15 @@ export const Skills = () => {
       <Card data-aos="fade-up" data-aos-delay="210" className=" max-md:m-auto flex flex-wrap gap-2 p-4 mb-4 ">
         <div className="flex max-md:flex-wrap gap-4 ">
           <div>
+          <div className="  gap-4 mb-2">
+            <Figma size={42}/>
+          </div>
+          <h3 className=" text-2xl font-bold text-primary tracking-tight">
+            Figma
+          </h3>
+          <p className="text-sm m-auto text-muted-foreground mb-2">
+            J'utilise l'outil de conception <Code>FIGMA</Code>{" "} .
+          </p>
             <div className="  gap-4 mb-2">
             <Php size={42}/>
           </div>
@@ -106,8 +118,26 @@ export const Skills = () => {
           <h3 className=" text-2xl font-bold text-primary tracking-tight">
             Bootstrap
           </h3>
-          <p className="text-sm m-auto text-muted-foreground">
+          <p className="text-sm m-auto text-muted-foreground mb-2">
              Utilisation du framework <Code>Bootstrap</Code>{" "} .
+          </p>
+          <div className="  gap-4 mb-2">
+            <Seo size={42}/>
+          </div>
+          <h3 className=" text-2xl font-bold text-primary tracking-tight">
+            SEO
+          </h3>
+          <p className="text-sm m-auto text-muted-foreground mb-2">
+          Application des bonnes pratiques <Code>SEO</Code> pour une meilleure visibilité en ligne.
+          </p>
+          <div className="  gap-4 mb-2">
+            <Accessibility size={42}/>
+          </div>
+          <h3 className=" text-2xl font-bold text-primary tracking-tight">
+            Accessibilité
+          </h3>
+          <p className="text-sm m-auto text-muted-foreground">
+          Application des bonnes pratiques <Code>d'accessibilité</Code>.
           </p>
           </div>
         </div>

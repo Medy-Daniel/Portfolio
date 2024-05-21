@@ -27,7 +27,7 @@ export const Me = () => {
           <strong>Développeur web et web mobile</strong>
         </h3>
         <p className="text-base mb-4">
-          Voici mon portfolio coder avec la librairie React.
+          Voici mon portfolio codé avec la librairie React.
           <br />
           Autonome et passionné par le développement web, mes expériences
           personnelles m'ont permis d'explorer divers langages de programmation
