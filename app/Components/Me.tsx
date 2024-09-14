@@ -38,7 +38,7 @@ export const Me = () => {
           sein d'une entreprise.
           <br />
           Si vous le souhaitez, vous pouvez accéder à mon{" "}
-          <Link href="https://linkedin.com/in/médy-daniel">
+          <Link href="https://linkedin.com/in/médy-daniel" target='_blank'>
             <Code className="inline-flex items-center gap-1 mt-2 ">
               <Linkedin size={16} className="inline " />
               Linkedin

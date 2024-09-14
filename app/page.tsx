@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Footer } from "./Components/Footer";
 import { Header } from "./Components/Header";
 import { Me } from "./Components/Me";
@@ -9,6 +10,8 @@ import { Status } from "./Components/Status";
 
 
 export default function Home() {
+
+
   return (
    <main>
   <Header/>

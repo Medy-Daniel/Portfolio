@@ -38,7 +38,7 @@ export const SlideProjects = () => {
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-6">
                    {index === 0 ? (
-                    <Link   href="http://www.ofourneau.fr/">
+                    <Link   href="http://www.ofourneau.fr/" target='_blank'>
                       <div className='max-w-md: img-container-1'>
                         <img className="max-w-md: project-img  " src={Recipe.src}
                         alt="image_ofourneau"/>
