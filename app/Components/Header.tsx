@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Linkedin } from "../icons/Linkedin";
 import { useState } from "react";
+import { Code } from "./Code";
 
 
  export const Header = () => { 
@@ -24,17 +25,24 @@ import { useState } from "react";
             <h1 className="text-lg font-bold text primary-foreground">
                Medy Daniel 
             </h1>
-            <button className="ml-20 bg-white rounded-sm text-black" onClick={toggleBlueMode}>Switch</button>
+            <button 
+  className={`ml-20 rounded-sm transition-colors ${
+    blueMode ? 'bg-white text-black' : 'bg-black text-white'
+  }`} 
+  onClick={toggleBlueMode}
+>
+  <Code><i className='bx bx-sun'></i></Code>
+</button>
             <div className="flex-1" />
             <ul>
                 <Link
-                href="https://github.com/Medy-Daniel"
+                href="https://github.com/Medy-Daniel" target="_blank"
                  className={cn(buttonVariants({ variant: "outline"}), "size-6 p-0 mr-2")}
                  >
                     <Github size={25} className="text-foreground"/>
                </Link>
                <Link
-                href="https://linkedin.com/in/médy-daniel"
+                href="https://linkedin.com/in/médy-daniel" target="_blank"
                  className={cn(buttonVariants({ variant: "outline"}), "size-6 p-0")}
                  >
                     <Linkedin size={25} className="text-foreground"/>
